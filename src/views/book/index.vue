@@ -1,16 +1,19 @@
 <template>
-  <div class="home">
+  <div class="book">
+    <book-reader></book-reader>
   </div>
 </template>
 
 <script>
+import bookReader from '@/components/book/bookReader'
 export default {
-  name: 'home', 
+  name: 'book', 
   data () {
     return {
     }
   },
   components: {
+    bookReader
   },
   mounted() {
   },
